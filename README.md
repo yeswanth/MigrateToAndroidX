@@ -18,3 +18,13 @@ The sublist of imports are below:-
 If your path is ~/projects/rnProject/node_modules/
 ```python3 migrateToAndroidX.py --node_modules ~/projects/rnProject/node_modules/```
 
+### How to make this script run automatically after npm install 
+It might be beneficial to run the script after all `node_modules` are installed. 
+For this, we can use `postinstall` [hook](https://docs.npmjs.com/misc/scripts) of npm
+In your package.json, you can add a new script, 
+```
+"scripts":{
+  ... 
+  "postinstall":"python3 migrateToAndroidX.py --node_modules <path>"
+}
+```
