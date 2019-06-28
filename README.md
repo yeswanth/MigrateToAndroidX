@@ -21,7 +21,7 @@ If your path is ~/projects/rnProject/node_modules/
 ### How to make this script run automatically after npm install 
 It might be beneficial to run the script after all `node_modules` are installed. 
 For this, we can use `postinstall` [hook](https://docs.npmjs.com/misc/scripts) of npm
-In your package.json, you can add a new script, 
+In your `package.json`, you can add a new script, 
 ```
 "scripts":{
   ... 
