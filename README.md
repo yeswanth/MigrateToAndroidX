@@ -12,5 +12,9 @@ The sublist of imports are below:-
 4. `android.support.v4.**`
 
 ## Usage
+```python3 migrateToAndroidX.py --node_modules <path>```
+
+### Example 
+If your path is ~/projects/rnProject/node_modules/
 ```python3 migrateToAndroidX.py --node_modules ~/projects/rnProject/node_modules/```
 
