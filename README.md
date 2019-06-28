@@ -1,5 +1,5 @@
 # MigrateToAndroidX
-Python Script to automatically migrate imports to AndroidX 
+Python Script to automatically migrate old imports in a React-Native project to AndroidX imports
 
 ## What does it do? 
 * Uses the bindings file provided by [Android](https://developer.android.com/jetpack/androidx/migrate)
